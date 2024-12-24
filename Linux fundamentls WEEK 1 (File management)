@@ -19,7 +19,18 @@ tail - displays few lines from the bottom
 tail -n <number of lines> - displays number of lines mentioned
 nl - displays the contents with line numbers
 file - used to see what kind of file that is like text or image etc,.
-find - used to find a file or folder with loction by mentioning -name "<Filename>", "<.extention>"
+
+
+-type - mention what to find like if file means d and f for files
+find - used to find a file or folder with loction by mentioning -name "<Filename>", "<*.extention>"
+find <filelocation> -mtime -<NumberOfDays> - modified files for the last number of days mentioned
+find <filelocation> -mtime +<NumberOfDays> - modified files for the last number of days mentioned
+find grep
+locate - mentioning <FileName> or <*.extension> it will show in a faster way 
+which - used to find executable files
+man - used to see help page for executables
+whereis - used to find executables with help file folder
+ 
 
 ls - used to list the files available in the working directory
 ls -F(flags) - used to identify folders and files
