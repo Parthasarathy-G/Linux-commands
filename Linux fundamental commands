@@ -1,8 +1,16 @@
 Linux fundamental commands
 
+pwd - print working directory
+touch - used to create files
+mkdir - used to create a directory
+rmdir - used to remove a directory
+
+
+
 ls - used to list the files available in the working directory
 ls -F - used to identify folders and files
 ls -a - used to see the hidden files and folders
 ls -R - used to see the files in directries and sub-directries
 ls -l - used to see all the details in a directory like user, size, sub-linked folder
 ls filename*(not neccessary to enter the full name of the file) - used to search a file by name in a directory
+ls filename*last characters - used same as before to see the file with last characters
