@@ -4,3 +4,4 @@ ls - used to list the files available in the working directory
 ls -F - used to identify folders and files
 ls -a - used to see the hidden files and folders
 ls -R - used to see the files in directries and sub-directries
+ls -l - used to see all the details in a directory like user, size, sub-linked folder
