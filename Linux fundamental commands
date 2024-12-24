@@ -5,3 +5,4 @@ ls -F - used to identify folders and files
 ls -a - used to see the hidden files and folders
 ls -R - used to see the files in directries and sub-directries
 ls -l - used to see all the details in a directory like user, size, sub-linked folder
+ls -l filename*(not neccessary to enter the full name of the file) - used to search a file by name in a directory
