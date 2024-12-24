@@ -1,0 +1,38 @@
+Linux fundamental commands
+
+cd - used to change directory
+whoami - used to see the current user
+pwd - print working directory
+touch - used to create files
+mkdir - used to create a directory
+rmdir - used to remove a directory
+rm - used to delete a file
+cp - used to copy files
+echo - used to write in the files directly 
+cat - used to view the contents in a file
+mv - used to rename a file and as well move a file from a directory
+more - used the fill the current screen with  the contents of the file, balance contents will be seen also by arrow keys
+less - used to see the contents which seen in the screen, by pressing arrow button other contents can be seen
+head - displays few lines from the top(10 lines)
+head -n <number of line> - displays number of lines mentioned
+tail - displays few lines from the bottom
+tail -n <number of lines> - displays number of lines mentioned
+nl - displays the contents with line numbers
+file - used to see what kind of file that is like text or image etc,.
+find - used to find a file or folder with loction by mentioning -name "<Filename>", "<.extention>"
+
+ls - used to list the files available in the working directory
+ls -F(flags) - used to identify folders and files
+ls -a(all files) - used to see the hidden files and folders
+ls -R(recursive) - used to see the files in directries and sub-directries
+ls -l(Long lisiting) - used to see all the details in a directory like user, size, sub-linked folder
+ls filename*(not neccessary to enter the full name of the file) - used to search a file by name in a directory
+ls filename*last characters - used same as before to see the file with last characters
+
+vi or vim - used to edit the files in vim editor
+(SHIFT + ; then press q to exit from the vim editor)
+
+ln -s(symbolic link) - used to create a symbolic link
+ln -s -f(force) -  used to link a already linked file to a new folder
+ln <Filepath> <Filepath> - used to create a hardlink 
+ 
