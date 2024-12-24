@@ -14,12 +14,14 @@ cat - used to view the contents in a file
 
 
 ls - used to list the files available in the working directory
-ls -F - used to identify folders and files
-ls -a - used to see the hidden files and folders
-ls -R - used to see the files in directries and sub-directries
+ls -F(flags) - used to identify folders and files
+ls -a(all files) - used to see the hidden files and folders
+ls -R(recursive) - used to see the files in directries and sub-directries
 ls -l(Long lisiting) - used to see all the details in a directory like user, size, sub-linked folder
 ls filename*(not neccessary to enter the full name of the file) - used to search a file by name in a directory
 ls filename*last characters - used same as before to see the file with last characters
 
 
-ln -s - used to create a symbolic link
+ln -s(symbolic link) - used to create a symbolic link
+ln -s -f(force) -  used to link a already linked file to a new folder
+ln <Filepath> <Filepath> - used to create a hardlink 
