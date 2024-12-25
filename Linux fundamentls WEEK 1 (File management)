@@ -2,6 +2,7 @@ Linux fundamental commands
 
 cd - used to change directory
 whoami - used to see the current user
+clear - to clear the current terminal
 pwd - print working directory
 touch - used to create files
 mkdir - used to create a directory
