@@ -37,7 +37,7 @@ whereis - used to find executables with help file folder
 ls - used to list the files available in the working directory
 ls -F(flags) - used to identify folders and files
 ls -a(all files) - used to see the hidden files and folders
-ls -R(recursive) - used to see the files in directries and sub-directries
+ls -R(recursive) - used to see the files in directories and sub-directories
 ls -l(Long lisiting) - used to see all the details in a directory like user, size, sub-linked folder
 ls filename*(not neccessary to enter the full name of the file) - used to search a file by name in a directory
 ls filename*last characters - used same as before to see the file with last characters
@@ -53,3 +53,35 @@ Shift + ; then press wq which means write and quit
 ln -s(symbolic link) - used to create a symbolic link
 ln -s -f(force) -  used to link a already linked file to a new folder
 ln <Filepath> <Filepath> - used to create a hardlink
+
+File permissions
+
+While using long listing (l) the first characters denodes these
+
+- for files
+d for directories
+| for links
+
+File permissions according to users
+
+> Permissions for the file owner
+> Permissions for group members
+> Permissions for everyone else
+
+r for read permissions for the object
+w for write permissions for the object
+x for executae permissions for the object(like binary eg: ls)
+
+For example 
+
+rw-           rw-       r--
+(Owner)     (Group)   (Everyone)
+
+---     No permissions
+--x     Execute-only permission
+-W-     Write-only permission
+-wx     Write and execute permissions
+r--     Read-only permissions
+r-x     Read and execute permissions
+rw-     Read and write permissions
+rwx     Read, Write, and execute permissions
