@@ -26,7 +26,7 @@ file - used to see what kind of file that is like text or image etc,.
 find - used to find a file or folder with loction by mentioning -name "<Filename>", "<*.extention>"
 find <filelocation> -mtime -<NumberOfDays> - modified files for the last number of days mentioned
 find <filelocation> -mtime +<NumberOfDays> - modified files for the last number of days mentioned
-find grep
+find  <FileLocation> f -exec grep -l "<WordsToBeSearched>" {} \; - return the file name with the specified words to search
 locate - mentioning <FileName> or <*.extension> it will show in a faster way 
 which - used to find executable files
 man - used to see help page for executables
