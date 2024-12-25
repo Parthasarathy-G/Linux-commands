@@ -85,3 +85,19 @@ r--     Read-only permissions
 r-x     Read and execute permissions
 rw-     Read and write permissions
 rwx     Read, Write, and execute permissions
+
+
+User permissions
+
+u - user
+g - group
+o - others
+
+chmod - used to change permissions for users, groups and others
+
++ to add permission
+- to remove permission
+
+For example
+
+chmod u-r (FileName) - read acces removed for a user
