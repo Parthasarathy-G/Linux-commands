@@ -98,6 +98,7 @@ chmod - used to change permissions for users, groups and others
 + to add permission
 - to remove permission
 
+
 For example
 
 chmod u-r (FileName) - read acces removed for a user
