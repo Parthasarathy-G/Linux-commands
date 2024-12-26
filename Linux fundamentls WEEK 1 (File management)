@@ -125,6 +125,11 @@ sudo usermod - to change user modifications
 
 sudo usermod -s(shell program link) /bin/bash <username> - setting bash access for a user
 
+su group add <groupname> - used to create a group
+
+sudo usermod -aG(Add user to a group) <groupname> <username> - used to create a group
+
+groups <username> - used to see all the groups that the user in present
 
 
 
