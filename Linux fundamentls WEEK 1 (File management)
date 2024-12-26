@@ -22,6 +22,7 @@ tail -n <number of lines> - displays number of lines mentioned
 nl - displays the contents with line numbers
 file - used to see what kind of file that is like text or image etc,.
 
+***************************************************************************************************************************************
 
 -type - mention what to find like if file means d and f for files
 find - used to find a file or folder with loction by mentioning -name "<Filename>", "<*.extention>"
@@ -108,13 +109,13 @@ For example
 
 chmod u-r (FileName) - read acces removed for a user
 
+***************************************************************************************************************************************
+
 Creating users and groups
 
 sudo useradd <username> -m(home directory) - User creation
 
 sudo passwd <password> - Password creation
-
-
 
 su -<username> - Switch user
 
