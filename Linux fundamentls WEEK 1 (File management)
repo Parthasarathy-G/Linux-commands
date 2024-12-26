@@ -54,6 +54,8 @@ ln -s(symbolic link) - used to create a symbolic link
 ln -s -f(force) -  used to link a already linked file to a new folder
 ln <Filepath> <Filepath> - used to create a hardlink
 
+***************************************************************************************************************************************
+
 File permissions
 
 While using long listing (l) the first characters denodes these
@@ -86,6 +88,7 @@ r-x     Read and execute permissions
 rw-     Read and write permissions
 rwx     Read, Write, and execute permissions
 
+***************************************************************************************************************************************
 
 User permissions
 
@@ -117,7 +120,9 @@ exit - used to exit from a user
 
 sudo usermod - to change user modifications
 
-sudo usermod -s(shell program link)
+sudo usermod -s(shell program link) /bin/bash <username> - setting bash access for a user
+
+
 
 
 
