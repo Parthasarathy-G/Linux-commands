@@ -114,7 +114,6 @@ d for directories
 | for links
 
 File permissions according to users
---------------------------
 
 > Permissions for the file owner
 > Permissions for group members
@@ -127,6 +126,7 @@ w for write permissions for the object
 x for executae permissions for the object(like binary eg: ls)
 
 For example 
+------------
 
 rw-           rw-       r--
 (Owner)     (Group)   (Everyone)
