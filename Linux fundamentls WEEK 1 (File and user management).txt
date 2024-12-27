@@ -103,6 +103,7 @@ ln <Filepath> <Filepath> - used to create a hardlink
 ***************************************************************************************************************************************
 
 File permissions
+--------------------------
 
 While using long listing (l) the first characters denodes these
 
