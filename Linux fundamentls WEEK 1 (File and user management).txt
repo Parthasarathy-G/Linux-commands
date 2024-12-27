@@ -114,6 +114,7 @@ d for directories
 | for links
 
 File permissions according to users
+--------------------------
 
 > Permissions for the file owner
 > Permissions for group members
