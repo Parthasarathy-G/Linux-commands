@@ -1,12 +1,15 @@
 Getting Started with Linux Fundamentals: My Journey So Far
 
-Over the past week, I decided to dive into the world of Linux and get a solid grasp of its fundamentals. I’ve always heard how crucial Linux is in the tech world, and I figured it was time to roll up my sleeves and get hands-on with it. Here’s what I’ve learnt so far:
+Over the past week, I decided to dive into the world of Linux and get a solid grasp of its fundamentals. 
+I’ve always heard how crucial Linux is in the tech world, and I figured it was time to roll up my sleeves and get hands-on with it. 
+Here’s what I’ve learnt so far:
 
 
 
 Basic Commands
 
-Learning the basic commands was my first step. These are essential for navigating and managing files and directories in Linux. Some of the commands I’ve explored include:
+Learning the basic commands was my first step. These are essential for navigating and managing files and directories in Linux. 
+Some of the commands I’ve explored include:
 
 cd: To change directories. This is your go-to for moving around the file system.
 
@@ -40,7 +43,8 @@ head and tail: Display the first or last few lines of a file, with options to sp
 
 nl: Shows file contents with line numbers.
 
-find and locate: For searching files and directories. find offers advanced options like filtering by modification time, while locate is faster but relies on an updated database.
+find and locate: For searching files and directories. find offers advanced options like filtering by modification time, 
+while locate is faster but relies on an updated database.
 
 which, man, and whereis: Help locate executable files and view their documentation.
 
@@ -89,9 +93,12 @@ ln <filepath> <filepath>: Creates hard links.
 
 Reflections and Next Steps
 
-This week has been incredibly insightful. Mastering these basics has given me a solid foundation to build on. Linux is vast, and there’s so much more to explore—from scripting to advanced server management. Next, I’m planning to dive deeper into shell scripting and explore more about file systems and process management.
+This week has been incredibly insightful. Mastering these basics has given me a solid foundation to build on. Linux is vast, 
+and there’s so much more to explore—from scripting to advanced server management. 
+Next, I’m planning to dive deeper into shell scripting and explore more about file systems and process management.
 
-For anyone starting with Linux, my advice is to practice as much as possible. The terminal might feel intimidating at first, but the more you use it, the more intuitive it becomes.
+For anyone starting with Linux, my advice is to practice as much as possible. The terminal might feel intimidating at first, 
+but the more you use it, the more intuitive it becomes.
 
 I’ll continue to share my progress as I learn. If you have any tips or resources, feel free to share them with me. Let’s keep learning together!
 
