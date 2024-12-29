@@ -1,0 +1,27 @@
+Getting Started with Linux Fundamentals: My Journey So Far
+
+Over the past week, I decided to dive into the world of Linux and get a solid grasp of its fundamentals. I’ve always heard how crucial Linux is in the tech world, and I figured it was time to roll up my sleeves and get hands-on with it. Here’s what I’ve learnt so far:
+
+Basic Commands
+
+Learning the basic commands was my first step. These are essential for navigating and managing files and directories in Linux. Some of the commands I’ve explored include:
+
+cd: To change directories. This is your go-to for moving around the file system.
+
+whoami: A quick way to check which user is currently logged in.
+
+clearTo clean up the clutter on your terminal.
+
+pwd: Prints the current working directory, so you always know where you are.
+
+touch: Creates new files effortlessly.
+
+mkdir and rmdir: To create and remove directories, respectively.
+
+rm: Deletes files, but you need to be cautious with this one!
+
+cp and mv: For copying and moving files or renaming them.
+
+nano and vi: Text editors to create and edit files directly from the terminal.
+
+ls: Lists files in the current directory, with variations like ls -a for hidden files and ls -l for detailed information.
