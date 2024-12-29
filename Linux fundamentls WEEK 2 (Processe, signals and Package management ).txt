@@ -25,3 +25,16 @@ cp and mv: For copying and moving files or renaming them.
 nano and vi: Text editors to create and edit files directly from the terminal.
 
 ls: Lists files in the current directory, with variations like ls -a for hidden files and ls -l for detailed information.
+
+File Viewing and Searching
+Viewing and searching files effectively is another key aspect of Linux. Here are some useful commands I’ve picked up:
+
+cat, more, and less: These help view file contents, each with slightly different functionality.
+
+head and tail: Display the first or last few lines of a file, with options to specify the number of lines.
+
+nl: Shows file contents with line numbers.
+
+find and locate: For searching files and directories. find offers advanced options like filtering by modification time, while locate is faster but relies on an updated database.
+
+which, man, and whereis: Help locate executable files and view their documentation.
