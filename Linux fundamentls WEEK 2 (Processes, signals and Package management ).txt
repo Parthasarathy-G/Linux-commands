@@ -2,4 +2,38 @@ Software Packages for linux that the softwares are stored in a server or resposi
 
 sudo apt(Package management tool) update - It will show a update list of the all the installed packages
 
-sudo apt install <SoftwareName> - It will install the Software mentioned
+sudo apt install <SoftwareName> - It will install the software mentioned
+
+sudo apt upgrade - It will upgrade all the softwares installed in our system
+
+sudo apt upgrade <SoftwareName>- It will upgrade the software mentioned
+
+sudo apt remove <SoftwareName> - It will remove the software mentioned
+
+sudo apt purge <SoftwareName> - It will remove the software mentioned with even configuration also
+
+sudo apt autoremove - It remove the unnessary files from the uninstalled softwares
+
+apt search <Software Name or Package Name> - It will show the packages available in that name 
+
+apt list - It will show the softwares in our system
+
+apt list --installed - It will show the installed softwares
+
+apt show <Software Name or Package Name> - It will show the details about the software mentioned
+
+
+
+Process management
+
+ps - It will show the processes 
+
+Like this
+
+PID TTY          TIME CMD
+  21574 pts/2    00:00:00 bash
+  21581 pts/2    00:00:00 ps
+
+
+
+
