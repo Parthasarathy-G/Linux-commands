@@ -1,0 +1,5 @@
+Software Packages for linux that the softwares are stored in a server or respository
+
+sudo apt(Package management tool) update - It will show a update list of the all the installed packages
+
+sudo apt install <SoftwareName> - It will install the Software mentioned
