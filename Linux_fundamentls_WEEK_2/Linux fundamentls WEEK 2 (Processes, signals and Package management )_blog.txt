@@ -1,0 +1,10 @@
+Linux Process Management
+
+Learning how to manage processes in Linux was both fascinating and a bit challenging. Commands like ps, top, and kill gave me a new perspective on how operating systems handle applications and processes in real-time. For example, understanding the difference between ps aux and top took some trial and error, especially while figuring out which processes belonged to which users.
+One specific problem I encountered was with kill commands. Initially, I tried to terminate a process by name using pkill, but it didn’t work as expected because I didn’t specify the exact process name. This led me to dive deeper into filtering processes with ps and understanding the PID system.
+
+
+Linux Package Management
+
+Working with apt commands taught me the importance of keeping software updated while avoiding unnecessary installations. Commands like sudo apt update, sudo apt upgrade, and sudo apt autoremove showed me how to maintain a clean and efficient system. At first, I accidentally removed a package along with its configuration files using sudo apt purge, which broke a dependency for another tool I was using. This mistake highlighted the importance of understanding the impact of each command before execution.
+
