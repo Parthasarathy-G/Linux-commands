@@ -9,6 +9,7 @@ Linux Package Management
 Working with apt commands taught me the importance of keeping software updated while avoiding unnecessary installations. Commands like sudo apt update, sudo apt upgrade, and sudo apt autoremove showed me how to maintain a clean and efficient system. At first, I accidentally removed a package along with its configuration files using sudo apt purge, which broke a dependency for another tool I was using. This mistake highlighted the importance of understanding the impact of each command before execution.
 
 
+***********************************************************************************************************************************************************
 
 
 Networking Concepts
