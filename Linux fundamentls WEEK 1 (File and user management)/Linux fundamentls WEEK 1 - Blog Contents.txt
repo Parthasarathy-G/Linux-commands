@@ -5,6 +5,8 @@ I’ve always heard how crucial Linux is in the tech world, and I figured it was
 Here’s what I’ve learnt so far:
 
 
+***********************************************************************************************************************************************************
+
 
 Basic Commands
 
@@ -32,6 +34,8 @@ nano and vi: Text editors to create and edit files directly from the terminal.
 ls: Lists files in the current directory, with variations like ls -a for hidden files and ls -l for detailed information.
 
 
+***********************************************************************************************************************************************************
+
 
 File Viewing and Searching
 
@@ -48,6 +52,8 @@ while locate is faster but relies on an updated database.
 
 which, man, and whereis: Help locate executable files and view their documentation.
 
+
+***********************************************************************************************************************************************************
 
 
 File and User Permissions
