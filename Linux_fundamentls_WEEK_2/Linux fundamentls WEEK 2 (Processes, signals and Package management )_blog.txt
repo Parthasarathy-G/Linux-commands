@@ -80,6 +80,7 @@ Switch to an existing branch - git checkout branch_name or git switch branch_nam
 
 Return to the previous branch using git checkout -.
 
+***********************************************************************************************************************************************************
 
 Standard GitHub Commands
 
