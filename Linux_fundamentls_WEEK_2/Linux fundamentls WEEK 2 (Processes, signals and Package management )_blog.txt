@@ -35,6 +35,9 @@ Switches and Hubs - Switches and hubs are networking devices used to connect mul
 Firewalls - Firewalls are security devices that monitor and control incoming and outgoing network traffic based on predetermined security rules. They help protect networks from unauthorized access and cyber threats.
 
 
+***********************************************************************************************************************************************************
+
+
 Basic Commands in Git
 
 git init - This command creates a new, empty Git repository. It adds a hidden .git folder to your project directory, which Git uses to store all the information about your repository.
