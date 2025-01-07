@@ -102,6 +102,9 @@ ln <filepath> <filepath>: Creates hard links.
 
 
 
+***********************************************************************************************************************************************************
+
+
 Reflections and Next Steps
 
 This week has been incredibly insightful. Mastering these basics has given me a solid foundation to build on. Linux is vast, 
