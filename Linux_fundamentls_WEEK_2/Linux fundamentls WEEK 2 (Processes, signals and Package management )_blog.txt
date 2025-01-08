@@ -41,6 +41,7 @@ Firewalls - Firewalls are security devices that monitor and control incoming and
 
 Basic Commands in Git
 
+
 git init - This command creates a new, empty Git repository. It adds a hidden .git folder to your project directory, which Git uses to store all the information about your repository.
 
 git config - This command is used to configure your Git settings. For example, you can use it to set your name and email address, which will be associated with your commits. You can also set the default branch name to main, which is now standard practice.
@@ -69,6 +70,7 @@ git pull - This command is used to pull changes from a remote repository to your
 
 Git Branch Commands
 
+
 Create a Branch
 
 git branch branch_name - to create a new branch. To create and switch to a new branch directly, use git checkout -b branch_name.
@@ -79,6 +81,7 @@ List local branches using git branch.
 List all branches (local and remote) - git branch -a.
 
 View only remote branches using git branch -r.
+
 
 Switch Branches
 
