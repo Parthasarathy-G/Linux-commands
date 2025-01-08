@@ -119,7 +119,5 @@ This week has been immensely productive and insightful. Diving into Linux proces
 
 GitHUB Links:
 https://github.com/Parthasarathy-G/Linux-fundamendals
-
 https://github.com/Parthasarathy-G/Git-and-GitHUB
-
 https://github.com/Parthasarathy-G/Networking_concepts
