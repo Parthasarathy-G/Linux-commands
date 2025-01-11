@@ -1,0 +1,127 @@
+Week 3 Learning Plan
+
+This document outlines the remaining topics to be covered in the third week of learning Linux fundamentals, Git and GitHub, and networking concepts.
+
+Linux Fundamentals
+
+1. Advanced File Permissions and Ownership
+    - Changing Ownership:
+      - `chown` command to change ownership of files and directories.
+        - Syntax: `chown [OPTION]... [OWNER][:[GROUP]] FILE...`
+        - Example: `chown user:group filename`
+      - Managing user and group ownership.
+        - Use `chown` to change both user and group ownership simultaneously.
+        - Example: `chown user:group directory/`
+    - File Permissions Management:
+      - Symbolic and numeric modes for `chmod`.
+        - Symbolic mode: `chmod [OPTION]... MODE[,MODE]... FILE...`
+        - Numeric mode: `chmod [OPTION]... OCTAL-MODE FILE...`
+        - Example (symbolic): `chmod u+x filename`
+        - Example (numeric): `chmod 755 filename`
+      - Recursive permission changes.
+        - Use `-R` option to apply changes recursively.
+        - Example: `chmod -R 755 directory/`
+
+2. Disk and Storage Management
+    - Commands for Disk Management:
+      - `df` to report disk space usage.
+        - Syntax: `df [OPTION]... [FILE]...`
+        - Example: `df -h`
+      - `du` to summarize directory sizes.
+        - Syntax: `du [OPTION]... [FILE]...`
+        - Example: `du -sh directory/`
+      - `lsblk` to display information about block devices.
+        - Syntax: `lsblk [OPTION]... [DEVICE]...`
+        - Example: `lsblk -f`
+    - Mounting and Unmounting Drives:
+      - Using `mount` and `umount` commands.
+        - `mount` syntax: `mount [OPTION]... DEVICE DIRECTORY`
+        - `umount` syntax: `umount [OPTION]... DIRECTORY`
+        - Example (mount): `mount /dev/sda1 /mnt`
+        - Example (umount): `umount /mnt`
+      - Automating mounts with `/etc/fstab`.
+        - Edit `/etc/fstab` to add entries for automatic mounting.
+        - Example entry: `/dev/sda1 /mnt ext4 defaults 0 2`
+
+3. System Monitoring and Performance
+    - Monitoring Tools:
+      - `htop` or `top` for real-time process monitoring.
+        - `htop` provides an interactive interface.
+        - `top` is a standard tool available on most systems.
+      - `iotop` for disk I/O usage.
+        - Syntax: `iotop [OPTIONS]`
+        - Example: `iotop -o`
+    - Log Analysis:
+      - Using `journalctl` for systemd logs.
+        - Syntax: `journalctl [OPTIONS]... [MATCHES]...`
+        - Example: `journalctl -xe`
+      - Monitoring real-time logs with `tail -f`.
+        - Syntax: `tail -f [FILE]`
+        - Example: `tail -f /var/log/syslog`
+
+4. Shell Scripting Basics
+    - Automation with Shell Scripts:
+      - Writing scripts to automate common tasks.
+        - Example script:
+          ```bash
+          #!/bin/bash
+          echo "Hello, World!"
+          ```
+      - Using variables, loops, and conditionals in scripts.
+        - Example with variables:
+          ```bash
+          #!/bin/bash
+          NAME="John"
+          echo "Hello, $NAME!"
+          ```
+        - Example with loops:
+          ```bash
+          #!/bin/bash
+          for i in {1..5}
+          do
+            echo "Iteration $i"
+          done
+          ```
+        - Example with conditionals:
+          ```bash
+          #!/bin/bash
+          if [ -f /etc/passwd ]; then
+            echo "File exists."
+          else
+            echo "File does not exist."
+          fi
+          ```
+    - Best Practices:
+      - Adding comments for readability.
+        - Use `#` to add comments.
+        - Example: `# This is a comment`
+      - Handling errors gracefully.
+        - Use `set -e` to exit on errors.
+        - Example:
+          ```bash
+          #!/bin/bash
+          set -e
+          cp source.txt destination.txt
+          ```
+
+5. Networking in Linux
+    - Network Configuration:
+      - Configuring network interfaces.
+        - Example: `ifconfig eth0 192.168.1.100 netmask 255.255.255.0`
+      - Using `ifconfig` or `ip` commands.
+        - `ifconfig` is deprecated but still used.
+        - `ip` command is the modern replacement.
+        - Example: `ip addr add 192.168.1.100/24 dev eth0`
+    - Network Monitoring Tools:
+      - `netstat` or `ss` for active connections.
+        - `netstat` syntax: `netstat [OPTIONS]`
+        - `ss` syntax: `ss [OPTIONS]`
+        - Example (`netstat`): `netstat -tuln`
+        - Example (`ss`): `ss -tuln`
+      - Diagnosing issues with `ping`, `traceroute`, and `tcpdump`.
+        - `ping` syntax: `ping [OPTIONS] DESTINATION`
+        - `traceroute` syntax: `traceroute [OPTIONS] HOST`
+        - `tcpdump` syntax: `tcpdump [OPTIONS]`
+        - Example (`ping`): `ping google.com`
+        - Example (`traceroute`): `traceroute google.com`
+        - Example (`tcpdump`): `tcpdump -i eth0`
